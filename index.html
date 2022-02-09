@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const obj = {
+      age: 18
+    };
+    // console.log 打印对象的时候，打印的不是“瞬时状态”
+    // console.log(obj)
+    // console.log(obj.age)
+    console.log(JSON.stringify(obj))
+    obj.age = 19;
+  </script>
+</body>
+
+</html>
